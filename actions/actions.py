@@ -9,7 +9,7 @@ import openai
 class GPT3ResponseAction(Action):
     def __init__(self):
         super().__init__()
-        openai.api_key =  "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"
+        openai.api_key =  ""
         self.model_engine = "text-davinci-003"
 
     def name(self):
